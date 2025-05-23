@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Aleatorio</title>
+  <link rel="stylesheet" href="style\style.css">
+
+</head>
+<body>
+  <h1>(҂ `з´) ︻╦̵̵̿╤── Batalla por Equipos Pokémon Aleatorios!!!</h1>
+  <div class="contenedor" id="contenedor"></div>
+  <button id= "primero" onclick="mostrarPrimerEquipo()" disabled>Mostrar Primer Equipo</button>
+  
+  <div class="contenedor" id="contenedor1"></div>
+  <button id="segundo" onclick="mostrarSegundoEquipo()" disabled>Mostrar Segundo Equipo</button>
+  <div class="linea"></div>
+  <h1>Lanzar Dados</h1>
+
+<button id= dado1 onclick="lanzarDadosEquipo1()">🎲Lanzar Dados Equipo 1🎲</button>
+<p id="resultado1">Total Equipo 1: 0</p>
+
+<button id= dado2 onclick="lanzarDadosEquipo2()">🎲Lanzar Dados Equipo 2🎲</button>
+<p id="resultado2">Total Equipo 2: 0</p>
+
+  <div id="resultado"></div>
+  <button onclick="EquipoGanador()">⚔️¡Batallar!⚔️</button>
+  
+  <script src="js\fn.js"></script>
+</body>
+</html>
